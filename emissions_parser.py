@@ -44,35 +44,15 @@ def parse_everything():
                 lat.append(float(cleaned_data[2]))
                 long.append(float(cleaned_data[3]))
 
-        # info[i][1] = datetime.strptime(info[i][1][:-13], "%Y-%m-%d")
-        # print info[i][1][:-13]
-
-    return lat,long
+    return lat, long
 
 
 # ---
 my_info = parse_everything()
 
-# print my_info[1]
-
-
-# pointdf = pd.DataFrame({"X": my_info[0], "Y": my_info[1]})
-
-# ax = pointdf.plot.scatter(x = "X", y = "Y")
-
-# ax = plt.scatter(my_info[0], my_info[1])
-
-# fig = plt.figure()
-
-# plt.show()
-
 plt.hold(True)
 
-plt.plot(my_info[1], my_info[0], "rs")
-
-# mplleaflet.display(ax.figure)
-
-# mplleaflet.display(fig)
+plt.plot(my_info[1], my_info[0], "ro")
 
 mplleaflet.show()
 # ---

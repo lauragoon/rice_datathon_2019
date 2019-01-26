@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="715898fa-331e-4fed-8ace-3436004fde2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/AQ_Emissions_OilGasChem_v01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/emissions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/emissions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/floodingheatmap12m.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/emissions_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/emissions_parser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emissions_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state relative-caret-position="186">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548481934685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="heat map for emission works">
+      <created>1548532422468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548532422468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -215,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial parsing of flood date" />
     <MESSAGE value="emissions data?" />
-    <option name="LAST_COMMIT_MESSAGE" value="emissions data?" />
+    <MESSAGE value="heat map for emission works" />
+    <option name="LAST_COMMIT_MESSAGE" value="heat map for emission works" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/nyc-mta-project/project.py">
@@ -263,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/emissions_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        <state relative-caret-position="186">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
