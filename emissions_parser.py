@@ -48,11 +48,14 @@ def parse_everything():
 
 
 # ---
-my_info = parse_everything()
-
-plt.hold(True)
-
-plt.plot(my_info[1], my_info[0], "ro")
-
-mplleaflet.show()
+# my_info = parse_everything()
+#
+# plt.hold(True)
+#
+# plt.plot(my_info[1], my_info[0], "ro")
+#
+# mplleaflet.show()
 # ---
+
+def use():
+    return parse_everything()
